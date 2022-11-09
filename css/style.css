@@ -244,15 +244,12 @@ body {
 .products__body {
   display: flex;
   gap: 42px;
-  
   justify-content: center;
-  
-  @media screen  and (max-width: 1000px){
-        .products__body {
-            flex-wrap: wrap;
-          
-             }
-        }
+}
+@media screen and (max-width: 1000px) {
+  .products__body {
+    flex-wrap: wrap;
+  }
 }
 
 .products-heading__text {
